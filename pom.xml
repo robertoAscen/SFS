@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>  
   <groupId>com.unicenta</groupId>  
   <artifactId>unicentaopos</artifactId>  
-  <version>4.5</version>  
+  <version>4.5.1</version>  
   <packaging>jar</packaging>  
   <properties> 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
@@ -235,11 +235,6 @@
     </dependency>  
     <!-- https://mvnrepository.com/artifact/de.sciss/weblaf -->  
     <dependency> 
-      <groupId>de.sciss</groupId>  
-      <artifactId>weblaf</artifactId>  
-      <version>1.2.9</version> 
-    </dependency>  
-    <dependency> 
       <groupId>javax.persistence</groupId>  
       <artifactId>persistence-api</artifactId>  
       <version>1.0.2</version> 
@@ -286,6 +281,11 @@
       <groupId>org.pushingpixels</groupId>
       <artifactId>substance</artifactId>
       <version>7.1.00</version>
+    </dependency>
+    <dependency>
+      <groupId>de.sciss</groupId>
+      <artifactId>weblaf</artifactId>
+      <version>1.2.9</version>
     </dependency>
   </dependencies>  
   <build> 

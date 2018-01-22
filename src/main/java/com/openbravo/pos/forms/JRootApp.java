@@ -1072,6 +1072,7 @@ public class JRootApp extends JPanel implements AppView, DeviceMonitorEventListe
         m_jClose.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         m_jClose.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/openbravo/images/exit.png"))); // NOI18N
         m_jClose.setText(AppLocal.getIntString("button.close")); // NOI18N
+        m_jClose.setToolTipText("Exit");
         m_jClose.setFocusPainted(false);
         m_jClose.setFocusable(false);
         m_jClose.setPreferredSize(new java.awt.Dimension(100, 50));
